@@ -1,7 +1,7 @@
 scp-upload.vim
 ============
 
-編集中のファイルをscpでアップロードすることができます。
+編集中のファイルをscpでアップロードすることができます。  
 送信先のサーバー情報は変数に定義できます。複数登録可能です。
 
 INSTALL
@@ -17,7 +17,7 @@ Usage
 
 Description
 ----
-以下のように設定ファイルを書いてください。
+以下のように設定ファイルを書いてください。  
 Please write following like.
 
     let g:vim_scp_configs = {
@@ -40,17 +40,17 @@ Please write following like.
     \}
 
 sample1
- > Edit file : /Users/name/sample/file.php
+ > Edit file : /Users/name/sample/file.php  
  > Upload to : /var/www/sample/file.php
 
 sample2
- > Edit file : /Users/name/sample/lib/dao/file.php
+ > Edit file : /Users/name/sample/lib/dao/file.php  
  > Upload to : /var/www/sample/lib/dao/file.php
 
 Alias
 ----
-別のコマンドがいい場合。
+別のコマンドがいい場合。  
 If you want to another command, write following like.
 
-Ctrl+u
-    nnoremap <C-U> <ESC>:call ScpUpload()<CR>
+Ctrl+u  
+    `nnoremap <C-U> <ESC>:call ScpUpload()<CR>`
