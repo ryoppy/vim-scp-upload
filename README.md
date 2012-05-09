@@ -40,12 +40,12 @@ Please write following like.
     \}
 
 sample1
-Edit file : /Users/name/sample/file.php
-Upload to : /var/www/sample/file.php
+ > Edit file : /Users/name/sample/file.php
+ > Upload to : /var/www/sample/file.php
 
 sample2
-Edit file : /Users/name/sample/lib/dao/file.php
-Upload to : /var/www/sample/lib/dao/file.php
+ > Edit file : /Users/name/sample/lib/dao/file.php
+ > Upload to : /var/www/sample/lib/dao/file.php
 
 Alias
 ----
